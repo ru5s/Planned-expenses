@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "graph.png",
+      "idiom" : "iphone"
+    },
+    {
+      "filename" : "graph pad.png",
+      "idiom" : "ipad"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

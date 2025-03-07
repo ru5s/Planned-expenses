@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72214742BC3C16D00D16F1C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214732BC3C16D00D16F1C /* HomeView.swift */; };
+		B72214762BC3C17B00D16F1C /* DebtsVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214752BC3C17B00D16F1C /* DebtsVIew.swift */; };
+		B72214782BC3C18700D16F1C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214772BC3C18700D16F1C /* Settings.swift */; };
+		B722147A2BC3C19000D16F1C /* TsbViewHarmony.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214792BC3C19000D16F1C /* TsbViewHarmony.swift */; };
+		B722147C2BC3C1A900D16F1C /* WebViewHarmony.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722147B2BC3C1A900D16F1C /* WebViewHarmony.swift */; };
+		B722147E2BC3C1B700D16F1C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722147D2BC3C1B700D16F1C /* WebView.swift */; };
+		B72214802BC3C1BF00D16F1C /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722147F2BC3C1BF00D16F1C /* CoreData.swift */; };
+		B72214822BC3C33500D16F1C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214812BC3C33500D16F1C /* SplashView.swift */; };
+		B72214842BC3C33F00D16F1C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214832BC3C33F00D16F1C /* OnboardingView.swift */; };
+		B72214862BC3C35600D16F1C /* HarmonyLeapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214852BC3C35600D16F1C /* HarmonyLeapViewModel.swift */; };
+		B72214882BC3C41800D16F1C /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214872BC3C41800D16F1C /* SplashViewModel.swift */; };
+		B722148A2BC3C4B400D16F1C /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214892BC3C4B400D16F1C /* OnboardingCell.swift */; };
+		B722148D2BC3C4D100D16F1C /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722148C2BC3C4D100D16F1C /* OnboardingModel.swift */; };
+		B722148F2BC3D80A00D16F1C /* OnboardingVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722148E2BC3D80A00D16F1C /* OnboardingVIewModel.swift */; };
+		B72214912BC3FC3600D16F1C /* HomeVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214902BC3FC3600D16F1C /* HomeVIewModel.swift */; };
+		B72214932BC406B200D16F1C /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214922BC406B200D16F1C /* CurrencyModel.swift */; };
+		B72214952BC41BDA00D16F1C /* DebtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214942BC41BDA00D16F1C /* DebtCell.swift */; };
+		B72214972BC434DA00D16F1C /* AddDebt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214962BC434DA00D16F1C /* AddDebt.swift */; };
+		B72214992BC5236500D16F1C /* AddEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214982BC5236500D16F1C /* AddEntry.swift */; };
+		B722149B2BC54A2B00D16F1C /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722149A2BC54A2B00D16F1C /* CustomPicker.swift */; };
+		B722149D2BC5B07C00D16F1C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722149C2BC5B07C00D16F1C /* View.swift */; };
+		B72214A12BC5E9FD00D16F1C /* CurrencyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214A02BC5E9FD00D16F1C /* CurrencyPair.swift */; };
+		B72214A32BC5EA0900D16F1C /* CurrencyPairCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214A22BC5EA0900D16F1C /* CurrencyPairCell.swift */; };
+		B72214A52BC5F0AB00D16F1C /* AboutCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214A42BC5F0AB00D16F1C /* AboutCurrency.swift */; };
+		B72214A72BC6792900D16F1C /* SlideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72214A62BC6792900D16F1C /* SlideCell.swift */; };
+		B75141922BC7F35E00C14A93 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75141912BC7F35E00C14A93 /* Test.swift */; };
+		B75EEBCA2BBECD3C00B5382B /* Harmony_LeapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75EEBC92BBECD3C00B5382B /* Harmony_LeapApp.swift */; };
+		B75EEBCE2BBECD3E00B5382B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75EEBCD2BBECD3E00B5382B /* Assets.xcassets */; };
+		B75EEBD12BBECD3E00B5382B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75EEBD02BBECD3E00B5382B /* Preview Assets.xcassets */; };
+		B75EEBD62BBECD3E00B5382B /* Harmony_Leap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B75EEBD42BBECD3E00B5382B /* Harmony_Leap.xcdatamodeld */; };
+		B75EEBDD2BBEDCBC00B5382B /* StaticValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75EEBDC2BBEDCBC00B5382B /* StaticValues.swift */; };
+		B7E00EB12BC687AD0042824D /* EditEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E00EB02BC687AD0042824D /* EditEntry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B72214732BC3C16D00D16F1C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B72214752BC3C17B00D16F1C /* DebtsVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtsVIew.swift; sourceTree = "<group>"; };
+		B72214772BC3C18700D16F1C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B72214792BC3C19000D16F1C /* TsbViewHarmony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TsbViewHarmony.swift; sourceTree = "<group>"; };
+		B722147B2BC3C1A900D16F1C /* WebViewHarmony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewHarmony.swift; sourceTree = "<group>"; };
+		B722147D2BC3C1B700D16F1C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		B722147F2BC3C1BF00D16F1C /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		B72214812BC3C33500D16F1C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B72214832BC3C33F00D16F1C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B72214852BC3C35600D16F1C /* HarmonyLeapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyLeapViewModel.swift; sourceTree = "<group>"; };
+		B72214872BC3C41800D16F1C /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		B72214892BC3C4B400D16F1C /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		B722148C2BC3C4D100D16F1C /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		B722148E2BC3D80A00D16F1C /* OnboardingVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVIewModel.swift; sourceTree = "<group>"; };
+		B72214902BC3FC3600D16F1C /* HomeVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVIewModel.swift; sourceTree = "<group>"; };
+		B72214922BC406B200D16F1C /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		B72214942BC41BDA00D16F1C /* DebtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtCell.swift; sourceTree = "<group>"; };
+		B72214962BC434DA00D16F1C /* AddDebt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDebt.swift; sourceTree = "<group>"; };
+		B72214982BC5236500D16F1C /* AddEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntry.swift; sourceTree = "<group>"; };
+		B722149A2BC54A2B00D16F1C /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		B722149C2BC5B07C00D16F1C /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		B72214A02BC5E9FD00D16F1C /* CurrencyPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPair.swift; sourceTree = "<group>"; };
+		B72214A22BC5EA0900D16F1C /* CurrencyPairCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairCell.swift; sourceTree = "<group>"; };
+		B72214A42BC5F0AB00D16F1C /* AboutCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCurrency.swift; sourceTree = "<group>"; };
+		B72214A62BC6792900D16F1C /* SlideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCell.swift; sourceTree = "<group>"; };
+		B75141912BC7F35E00C14A93 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		B75EEBC62BBECD3C00B5382B /* Harmony Leap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harmony Leap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75EEBC92BBECD3C00B5382B /* Harmony_LeapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmony_LeapApp.swift; sourceTree = "<group>"; };
+		B75EEBCD2BBECD3E00B5382B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B75EEBD02BBECD3E00B5382B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B75EEBD52BBECD3E00B5382B /* Harmony_Leap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Harmony_Leap.xcdatamodel; sourceTree = "<group>"; };
+		B75EEBDC2BBEDCBC00B5382B /* StaticValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticValues.swift; sourceTree = "<group>"; };
+		B7E00EB02BC687AD0042824D /* EditEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEntry.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75EEBC32BBECD3C00B5382B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B722146D2BC3C11900D16F1C /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				B72214722BC3C15300D16F1C /* Subview */,
+				B72214732BC3C16D00D16F1C /* HomeView.swift */,
+				B72214752BC3C17B00D16F1C /* DebtsVIew.swift */,
+				B72214772BC3C18700D16F1C /* Settings.swift */,
+				B72214792BC3C19000D16F1C /* TsbViewHarmony.swift */,
+				B722147B2BC3C1A900D16F1C /* WebViewHarmony.swift */,
+				B72214832BC3C33F00D16F1C /* OnboardingView.swift */,
+				B72214812BC3C33500D16F1C /* SplashView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		B722146E2BC3C12100D16F1C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B72214852BC3C35600D16F1C /* HarmonyLeapViewModel.swift */,
+				B72214872BC3C41800D16F1C /* SplashViewModel.swift */,
+				B722148E2BC3D80A00D16F1C /* OnboardingVIewModel.swift */,
+				B72214902BC3FC3600D16F1C /* HomeVIewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B722146F2BC3C12B00D16F1C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B722149A2BC54A2B00D16F1C /* CustomPicker.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B72214702BC3C13100D16F1C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B722149C2BC5B07C00D16F1C /* View.swift */,
+				B72214A62BC6792900D16F1C /* SlideCell.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B72214712BC3C13A00D16F1C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B722147D2BC3C1B700D16F1C /* WebView.swift */,
+				B722147F2BC3C1BF00D16F1C /* CoreData.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B72214722BC3C15300D16F1C /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				B72214962BC434DA00D16F1C /* AddDebt.swift */,
+				B72214892BC3C4B400D16F1C /* OnboardingCell.swift */,
+				B72214942BC41BDA00D16F1C /* DebtCell.swift */,
+				B75141912BC7F35E00C14A93 /* Test.swift */,
+				B72214982BC5236500D16F1C /* AddEntry.swift */,
+				B72214A02BC5E9FD00D16F1C /* CurrencyPair.swift */,
+				B72214A22BC5EA0900D16F1C /* CurrencyPairCell.swift */,
+				B72214A42BC5F0AB00D16F1C /* AboutCurrency.swift */,
+				B7E00EB02BC687AD0042824D /* EditEntry.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		B722148B2BC3C4C100D16F1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B722148C2BC3C4D100D16F1C /* OnboardingModel.swift */,
+				B72214922BC406B200D16F1C /* CurrencyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B75EEBBD2BBECD3C00B5382B = {
+			isa = PBXGroup;
+			children = (
+				B75EEBC82BBECD3C00B5382B /* Harmony Leap */,
+				B75EEBC72BBECD3C00B5382B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B75EEBC72BBECD3C00B5382B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75EEBC62BBECD3C00B5382B /* Harmony Leap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B75EEBC82BBECD3C00B5382B /* Harmony Leap */ = {
+			isa = PBXGroup;
+			children = (
+				B722148B2BC3C4C100D16F1C /* Model */,
+				B72214712BC3C13A00D16F1C /* Managers */,
+				B72214702BC3C13100D16F1C /* Extension */,
+				B722146E2BC3C12100D16F1C /* ViewModel */,
+				B722146D2BC3C11900D16F1C /* VIew */,
+				B722146F2BC3C12B00D16F1C /* UI */,
+				B75EEBDC2BBEDCBC00B5382B /* StaticValues.swift */,
+				B75EEBC92BBECD3C00B5382B /* Harmony_LeapApp.swift */,
+				B75EEBCD2BBECD3E00B5382B /* Assets.xcassets */,
+				B75EEBD42BBECD3E00B5382B /* Harmony_Leap.xcdatamodeld */,
+				B75EEBCF2BBECD3E00B5382B /* Preview Content */,
+			);
+			path = "Harmony Leap";
+			sourceTree = "<group>";
+		};
+		B75EEBCF2BBECD3E00B5382B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B75EEBD02BBECD3E00B5382B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75EEBC52BBECD3C00B5382B /* Harmony Leap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75EEBD92BBECD3E00B5382B /* Build configuration list for PBXNativeTarget "Harmony Leap" */;
+			buildPhases = (
+				B75EEBC22BBECD3C00B5382B /* Sources */,
+				B75EEBC32BBECD3C00B5382B /* Frameworks */,
+				B75EEBC42BBECD3C00B5382B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harmony Leap";
+			productName = "Harmony Leap";
+			productReference = B75EEBC62BBECD3C00B5382B /* Harmony Leap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B75EEBBE2BBECD3C00B5382B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B75EEBC52BBECD3C00B5382B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B75EEBC12BBECD3C00B5382B /* Build configuration list for PBXProject "Harmony Leap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B75EEBBD2BBECD3C00B5382B;
+			productRefGroup = B75EEBC72BBECD3C00B5382B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75EEBC52BBECD3C00B5382B /* Harmony Leap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B75EEBC42BBECD3C00B5382B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75EEBD12BBECD3E00B5382B /* Preview Assets.xcassets in Resources */,
+				B75EEBCE2BBECD3E00B5382B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75EEBC22BBECD3C00B5382B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72214A52BC5F0AB00D16F1C /* AboutCurrency.swift in Sources */,
+				B72214862BC3C35600D16F1C /* HarmonyLeapViewModel.swift in Sources */,
+				B75EEBD62BBECD3E00B5382B /* Harmony_Leap.xcdatamodeld in Sources */,
+				B72214A12BC5E9FD00D16F1C /* CurrencyPair.swift in Sources */,
+				B72214822BC3C33500D16F1C /* SplashView.swift in Sources */,
+				B722148F2BC3D80A00D16F1C /* OnboardingVIewModel.swift in Sources */,
+				B72214972BC434DA00D16F1C /* AddDebt.swift in Sources */,
+				B72214882BC3C41800D16F1C /* SplashViewModel.swift in Sources */,
+				B75141922BC7F35E00C14A93 /* Test.swift in Sources */,
+				B72214762BC3C17B00D16F1C /* DebtsVIew.swift in Sources */,
+				B72214782BC3C18700D16F1C /* Settings.swift in Sources */,
+				B722149D2BC5B07C00D16F1C /* View.swift in Sources */,
+				B72214992BC5236500D16F1C /* AddEntry.swift in Sources */,
+				B72214802BC3C1BF00D16F1C /* CoreData.swift in Sources */,
+				B722147C2BC3C1A900D16F1C /* WebViewHarmony.swift in Sources */,
+				B722148D2BC3C4D100D16F1C /* OnboardingModel.swift in Sources */,
+				B72214742BC3C16D00D16F1C /* HomeView.swift in Sources */,
+				B722148A2BC3C4B400D16F1C /* OnboardingCell.swift in Sources */,
+				B722149B2BC54A2B00D16F1C /* CustomPicker.swift in Sources */,
+				B72214952BC41BDA00D16F1C /* DebtCell.swift in Sources */,
+				B7E00EB12BC687AD0042824D /* EditEntry.swift in Sources */,
+				B722147A2BC3C19000D16F1C /* TsbViewHarmony.swift in Sources */,
+				B72214A72BC6792900D16F1C /* SlideCell.swift in Sources */,
+				B75EEBCA2BBECD3C00B5382B /* Harmony_LeapApp.swift in Sources */,
+				B72214842BC3C33F00D16F1C /* OnboardingView.swift in Sources */,
+				B72214912BC3FC3600D16F1C /* HomeVIewModel.swift in Sources */,
+				B75EEBDD2BBEDCBC00B5382B /* StaticValues.swift in Sources */,
+				B722147E2BC3C1B700D16F1C /* WebView.swift in Sources */,
+				B72214932BC406B200D16F1C /* CurrencyModel.swift in Sources */,
+				B72214A32BC5EA0900D16F1C /* CurrencyPairCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B75EEBD72BBECD3E00B5382B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B75EEBD82BBECD3E00B5382B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B75EEBDA2BBECD3E00B5382B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmony Leap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.Harmony-Leap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75EEBDB2BBECD3E00B5382B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmony Leap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.Harmony-Leap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B75EEBC12BBECD3C00B5382B /* Build configuration list for PBXProject "Harmony Leap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75EEBD72BBECD3E00B5382B /* Debug */,
+				B75EEBD82BBECD3E00B5382B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75EEBD92BBECD3E00B5382B /* Build configuration list for PBXNativeTarget "Harmony Leap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75EEBDA2BBECD3E00B5382B /* Debug */,
+				B75EEBDB2BBECD3E00B5382B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B75EEBD42BBECD3E00B5382B /* Harmony_Leap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B75EEBD52BBECD3E00B5382B /* Harmony_Leap.xcdatamodel */,
+			);
+			currentVersion = B75EEBD52BBECD3E00B5382B /* Harmony_Leap.xcdatamodel */;
+			path = Harmony_Leap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B75EEBBE2BBECD3C00B5382B /* Project object */;
+}
